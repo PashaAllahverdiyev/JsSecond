@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: blueviolet;
+}
+#demo1{
+    background-color: aqua;
+}
+#demo2{
+    background-color: aqua;
+}
+#demo3{
+    background-color: aqua;
+}
+#prc{
+    padding: 10px;
+}
+#mnth{
+    padding: 10px;
+}
+#btn{
+    background-color: bisque;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
