@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sa{
+    border: 1px solid gray;
+    width: 30%;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.sa input{
+    border: none;
+    outline: none;
+}
+.sa button{
+    border: none;
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 18px;
+}
+.content{
+    width: 30%;
+    margin: 1rem auto;
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid green;
+    border-radius: 15px;
+    margin: 10px 0;
+    padding: 10px 20px;
+}
+.bttn{
+    width: 15%;
+    border: none;
+    outline: grey;
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+
+}
+p{
+    font-size: 50px;
+    margin: 3rem 0rem 3rem 50rem;
+}
+
