@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headerAll{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(218, 211, 211);
+    padding: 20px;
+}
+.header1 span{
+    padding: 10px;
+}
+.header1  a{
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 15px;
+    color: blue;
+}
+.header2 a{
+    padding: 10px;
+    text-decoration: none;
+    color: #262626;
+}
+.inp{
+    display: none;
+}
