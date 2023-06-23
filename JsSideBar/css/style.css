@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+#phone{
+    display: none;
+}
+@media (max-width:576px) {
+    .all{
+        display: none;
+    }
+    #phone{
+        display: block;
+    }
+    .phoneup{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 50px; 
+    }   
+    .icon i{
+        background-color: red;
+        border: 1px solid red;
+        color: white;
+        padding: 10px 10px ;
+        font-size: 25px;
+        
+    }
+    .nextsite{
+        display: none;
+    }
+    .site1{
+        padding: 20px 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .icon-tel{
+        padding: 0 10px;
+    }
+    .icon-tel i {
+        background-color: red;
+        padding: 10px 10px;
+        color: aliceblue;
+    }
+}
+
+
+.game{
+margin: 20px auto 0px;
+    border: 1px solid black;
+    height: 90vh;
+    width: 80%;
+    background-color: green;
+    position: relative;
+    overflow: hidden;
+    font-size: 50px;
+    color: white;
+}
+.end{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    border: 1PX solid grey;
+    padding: 20px 20px;
+    margin: 100px auto;
+    border-radius: 100%;
+    width: 20%;
+    height: 30vh;
+    background-color: brown;
+    z-index: 1;
+}
+.stick{
+    width: 15%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 2;
+
+}
+.stick img{
+ width: 100%;
+}
